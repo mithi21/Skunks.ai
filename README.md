@@ -1,5 +1,5 @@
 # Skunks.ai
-Skunks.ai – Virtual Research Education
+Skunks.ai – Virtual Research and Critical Thinking Education  
 
 Online education has made great strides in the past decade in teaching technical skills and factual information. There are many excellent resources teaching subjects ranging from programming to calculus. However, teaching critical and scientific thinking is still limited to on-ground PhD and liberal arts degrees.
 
@@ -21,12 +21,14 @@ Skunks.ai creates online tools and educational materials to support vetting, con
 
 Our initial results are that non-PhDs can do world-class research given a clear path and mentorship to develop their critical and research thinking. However, without guidance most students will get frustrated trying to research and go back to focusing on acquiring purely technical and vocational skills.
 
-The http://skunks.ai/ site is currently under construction, but we hope to have enough to apply for grants in mid-Fall 2020.
+The [http://skunks.ai/](http://skunks.ai/) site is currently under construction, but we hope to have enough to apply for grants in mid-Fall 2020.
 
 Philosophy:
 
 [https://github.com/nikbearbrown/Skunks.ai](https://github.com/nikbearbrown/Skunks.ai)  
 
+
+![Skunks AI]('Art/Skunks_AI_Blurb_small.png')  
 
 Skunks Vision:
 
