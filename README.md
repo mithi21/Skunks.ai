@@ -1,6 +1,9 @@
 # Skunks.ai
 Skunks.ai – Virtual Research and Critical Thinking Education  
 
+![Skunks AI](https://github.com/nikbearbrown/Skunks.ai/blob/master/Art/Skunks_AI_Blurb_333.png)  
+
+
 Online education has made great strides in the past decade in teaching technical skills and factual information. There are many excellent resources teaching subjects ranging from programming to calculus. However, teaching critical and scientific thinking is still limited to on-ground PhD and liberal arts degrees.
 
 Skunks.ai has a model similar to many research PhDs but aims to make the process online, part-time and accessible to Masters students, advanced undergraduates, working professionals. Research PhD programs typically have three components: 1) qualifying exams to assess technical competence 2) research publications and 3) a dissertation.
@@ -27,8 +30,6 @@ Philosophy:
 
 [https://github.com/nikbearbrown/Skunks.ai](https://github.com/nikbearbrown/Skunks.ai)  
 
-
-![Skunks AI](https://github.com/nikbearbrown/Skunks.ai/blob/master/Art/Skunks_AI_Blurb_small.png)  
 
 
 Skunks Vision:
