@@ -28,7 +28,7 @@ Philosophy:
 [https://github.com/nikbearbrown/Skunks.ai](https://github.com/nikbearbrown/Skunks.ai)  
 
 
-![Skunks AI]('Art/Skunks_AI_Blurb_small.png')  
+![Skunks AI](https://github.com/nikbearbrown/Skunks.ai/Art/Skunks_AI_Blurb_small.png)  
 
 Skunks Vision:
 
