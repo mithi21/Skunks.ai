@@ -1,2 +1,2 @@
 # Skunks.ai
-unks.ai – Virtual Research Education
+Skunks.ai – Virtual Research Education
