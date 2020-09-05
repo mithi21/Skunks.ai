@@ -23,7 +23,7 @@ Currently the following algorithms are available under TF-Agents:
 *   [SAC: __Soft Actor Critic__ Haarnoja et al., 2018](https://arxiv.org/abs/1812.05905)
 
 ## Eligibility:  
-The challenge is open to the current Northeastern University Graduate COE students. The purpose of this challenge is to pre-screen candidates for a 15 hours per week Programmer-Analyst position for the coming Fall semester.   
+The challenge is open to the current Northeastern University Graduate COE students. The purpose of this challenge is to pre-screen candidates for three 15 hours per week Programmer-Analyst positions for the coming Fall semester.   
 
 The position may involve signing an NDA and data usage agreement with Kinesso as its objective is to apply state of the art reinforcement techniques to ad optimization.  
 
