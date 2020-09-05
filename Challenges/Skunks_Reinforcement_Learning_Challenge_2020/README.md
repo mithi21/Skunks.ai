@@ -23,7 +23,7 @@ Currently the following algorithms are available under TF-Agents:
 *   [SAC: __Soft Actor Critic__ Haarnoja et al., 2018](https://arxiv.org/abs/1812.05905)
 
 ## Eligibility:  
-The challenge is open to the current Northeastern University Graduate students. The purpose of this challenge is to pre-screen candidates for a 15 hours per week Programmer-Analyst position for the coming Fall semester.   
+The challenge is open to the current Northeastern University Graduate COE students. The purpose of this challenge is to pre-screen candidates for a 15 hours per week Programmer-Analyst position for the coming Fall semester.   
 
 The position may involve signing an NDA and data usage agreement with Kinesso as its objective is to apply state of the art reinforcement techniques to ad optimization.  
 
@@ -45,11 +45,26 @@ To get started, we recommend checking out one of the Colab tutorials:
 ## Implementation Guide
 Please incorporate the below guidelines in your solution: 
 
-- Load the data 
-    - Please find a muti-variate time-series data
+- Find and Load the data 
+    - Please find a multi-variate time-series data set  
     - The dependent variable must be a real number with defined action choices
               
 - Create an open-gym ai environment for your dataset
+    - See the class Env https://github.com/openai/gym/blob/master/gym/core.py
+    
+```python    
+class Env(object):
+    """The main OpenAI Gym class. It encapsulates an environment with
+    arbitrary behind-the-scenes dynamics. An environment can be
+    partially or fully observed.
+    The main API methods that users of this class need to know are:
+        step
+        reset
+        render
+        close
+        seed
+```        
+     - Look at the example open-gym ai environments          
 
 - Run one of the TF-Agents algorithms in the environment
     - You can select one of these RL algorithms of your choice and run them in the environment created by you
@@ -71,7 +86,7 @@ Please submit the notebook and any other code you wrote into a zipped folder and
 
 ### Thank You!
 
-### The Skunks Reinforcement Learning Challenge 2020 is made possible by a generous grant from Kinesso.   
+The Skunks Reinforcement Learning Challenge 2020 is made possible by a generous grant from Kinesso.   
 
 <img src="kin.png" width="300"/> 
 
