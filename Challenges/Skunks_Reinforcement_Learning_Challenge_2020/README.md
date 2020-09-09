@@ -23,33 +23,22 @@ Currently the following algorithms are available under TF-Agents:
 *   [SAC: __Soft Actor Critic__ Haarnoja et al., 2018](https://arxiv.org/abs/1812.05905)
 
 ## Eligibility:  
-The challenge is open to the current Northeastern University Graduate COE students. The purpose of this challenge is to pre-screen candidates for three 15 hours per week Programmer-Analyst positions for the coming Fall semester.   
+The challenge is open to the current Northeastern University Graduate students. The purpose of this challenge is to pre-screen candidates for three 15 hours per week Programmer-Analyst positions for the coming Fall semester.   
 
 The position may involve signing an NDA and data usage agreement with Kinesso as its objective is to apply state of the art reinforcement techniques to ad optimization.  
 
 We sincerely appreciate your interest and hope to see you participate in this challenge!!
 
-## Resources:
-To get started, we recommend checking out one of the Colab tutorials:
-
-* Reinforcement Learning - Thompson Sampling & the Multi-Armed Bandit Problem
-    https://colab.research.google.com/drive/1gdR7k7jtSRqYnPNHcbAKdIjGRjQXpfnA
-
-    https://github.com/nikbearbrown/Google_Colab/blob/master/Thompson_Sampling_%26_The_Multi_Armed_Bandit_Problem.ipynb
-
-* Andre Cianflone - Thompson sampling
-
-  https://colab.research.google.com/drive/1BHVH712x2Q2As9E5nN5Y8UR74T8w6AMO
-
 
 ## Implementation Guide
 Please incorporate the below guidelines in your solution: 
 
-- Find and Load the data 
-    - Please find a multi-variate time-series data set  
+- Find and Load the time series data 
+    - Dataset: Stock Price or Bitcoin Dataset
+    - Dataset can be univariate or a multi-variate dataset  
     - The dependent variable must be a real number with defined action choices
               
-- Create an open-gym ai environment for your dataset
+- Create and modify your own open-gym ai environment for the dataset
     - See the class Env https://github.com/openai/gym/blob/master/gym/core.py
     
 ```python    
@@ -67,18 +56,28 @@ class Env(object):
      - Look at the example open-gym ai environments          
 
 - Run one of the TF-Agents algorithms in the environment
-    - You can select one of these RL algorithms of your choice and run them in the environment created by you
+    - You can select one of these RL algorithms of your choice and run them in the environment created 
     - RL Algorithms: DQN, REINFORCE, DDPG, TD3, PPO or SAC
     
-- Compare the RL learner with any of the following:
-    - A random action agent 
-    - Simple agents like Thompson sampling, e-greedy, or UBC
+- Compare the RL learner performance with any of the following:
+    - A random action agent vs Simple agents like Thompson sampling, e-greedy, or UBC
+    - Compare and plot the difference in the performance
 
 - Describe the signals and action space for the TF-Agents algorithms and include points such as:
     - Can they take continuous or only discrete signals? 
     - Can the agent only be used in any environment which has a discrete action space?
 
 - Write about the pros and cons of the TF-Agents algorithms
+
+
+## Additional Resources:
+- Comparision of RL learner algorithms: https://towardsdatascience.com/solving-multiarmed-bandits-a-comparison-of-epsilon-greedy-and-thompson-sampling-d97167ca9a50
+- Trading with RL: https://medium.com/ether-labs/tradebot-stock-trading-using-reinforcement-learning-part1-8b67c9603f33
+- Custom gym environment: https://medium.com/@apoddar573/making-your-own-custom-environment-in-gym-c3b65ff8cdaa
+- https://stackoverflow.com/questions/45068568/how-to-create-a-new-gym-environment-in-openai
+- Reinforcement Learning - Thompson Sampling & the Multi-Armed Bandit Problem https://colab.research.google.com/drive/1gdR7k7jtSRqYnPNHcbAKdIjGRjQXpfnA  
+- Andre Cianflone - Thompson sampling https://colab.research.google.com/drive/1BHVH712x2Q2As9E5nN5Y8UR74T8w6AMO  
+
 
 ## Your submission:
 The jupyter notebook should include a detailed analysis and conclusion.  
